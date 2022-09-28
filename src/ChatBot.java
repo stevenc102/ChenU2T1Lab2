@@ -39,7 +39,13 @@ public class ChatBot {
     public int addNumbers(int num1, int num2, int num3) {
         return num1 + num2 + num3;
     }
-
+    public void botCrisis() {
+        System.out.println("You know, living knowing that at any moment that you could be shut down sure is tough!");
+    }
+    public double square(double givenNum) {
+        double squaredNum = givenNum * givenNum;
+        return squaredNum;
+    }
     // method that RETURNS a goodbye message as a String -- note there is no printing here!
     public String goodbye() {
         return "It was nice talking with you! Have a great day! Sincerely, " + name;
